@@ -1,0 +1,25 @@
+{
+  "name": "concurrentFilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DivinusVox/concurrentFilter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DivinusVox/concurrentFilter/issues"
+  },
+  "homepage": "https://github.com/DivinusVox/concurrentFilter",
+  "dependencies": {
+    "angular": "^1.4.4",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
