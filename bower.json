@@ -1,0 +1,23 @@
+{
+  "name": "concurrentFilter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DivinusVox/concurrentFilter",
+  "authors": [
+    "Kacey Cole <kcole@izeni.com>"
+  ],
+  "main": "main.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4"
+  }
+}
