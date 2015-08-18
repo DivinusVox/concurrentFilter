@@ -5,8 +5,18 @@
     <title></title>
     <script src="build/app.js"></script>
 </head>
-<body ng-controller="cfMainCtrl">
+<body ng-controller="cfMainCtrl as cf">
     <h1>Oh Hi</h1>
-    {{ wat }}
+    <hr>
+    <input type="button" ng-click="cf.applyFilter()" value="less">
+    <hr>
+    <div class="container">
+        <div ng-repeat="comment in cf.dataset track by $index">
+            <h1>{{ ::comment.name }}</h1>
+            <h2>{{ ::comment.email }}</h2>
+            <p>{{ ::comment.body }}</p>
+            <hr>
+        </div>
+    </div>
 </body>
 </html>
